@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## This is is the second assignment and we will quote an unexisting book
 
-The citation is in this sentence. [@book]
+The citation is in this sentence. [@Nobody06]
 
 
 ```{r cars}
