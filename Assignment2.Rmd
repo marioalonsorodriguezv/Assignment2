@@ -1,0 +1,30 @@
+---
+title: "Assignment2"
+author: "Mario Alonso Rodriguez"
+date: "7 de octubre de 2016"
+output: pdf_document
+bibliography: 'Biblio.bib'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is is the second assignment and we will quote an unexisting book
+
+The citation is in this sentence. [@book]
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
